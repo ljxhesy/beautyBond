@@ -1,0 +1,412 @@
+$elementColor:#fff;
+$styleColor:rgb(128, 64, 144);
+$sizeColor:rgb(51, 51, 51);
+$spanLiBottomColor:rgb(229, 229, 229);
+
+
+strong{
+    font-size:13px;
+    color:rgb(51,51,51);
+    font-weight: normal;
+} 
+
+.userInfo-header {
+    .more-btn {
+        right: 0;
+        padding-right: 15px;
+    }
+    .tooltip {
+        top: 65.5px;
+        opacity: 1;
+        right: 0;
+        >.tooltip-arrow {
+            left: 75%;
+        }
+    }
+
+    .hide{
+        display: none;
+    }
+
+    .tooltip-inner {
+        background: rgba(0, 0, 0, 0.6);
+        width: 100px;
+        li {
+            height: 44px;
+            border-bottom: 0.5px solid rgba(255, 255, 255, 0.6);
+            >span {
+                font-size: 16px;
+                line-height: 44px;
+            }
+            .message-num {
+                display: inline-block;
+                width: 16px;
+                height: 16px;
+                 border-radius: 50%;
+                background: $styleColor;
+                >span {
+                    font-size: 9px;
+                }
+            }
+        }
+        li:last-child{
+            border:none;
+        }
+    }
+    .share-btn {
+        right: 64px;
+        padding-right: 24px;
+    }
+}
+
+.shop-deil-list {
+    .big-pic {
+        height: 125px;
+        width: 100%;
+        background: url(../../images/icon2.png) no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        >div {
+            width: 52%;
+            height: 62%;
+            position: absolute;
+            top: 47.5px;
+            box-sizing: border-box;
+            span {
+                color: rgb(255, 255, 255);
+            }
+            >div {
+                float: left;
+            }
+            >div:nth-child(1) {
+                max-width: 40%;
+                padding: 10px 0 0 10px;
+            }
+            .right-deil {
+                min-width: 60%;
+                float: right;
+            }
+            .big-deil {
+                display: inline-block;
+                width: 52px;
+                height: 16px;
+                text-align: center;
+                border-radius: 50px;
+                border: 0.5px solid rgb(255, 255, 255);
+                font-size: 10px;
+            }
+        }
+        >i {
+            position: absolute;
+            top: 66.5px;
+            right: 15px;
+            display: inline-block;
+            width: 48px;
+            height: 24px;
+            font-size: 11px;
+            line-height: 24px;
+            text-align: center;
+            background-color: $styleColor;
+            border-radius: 50px;
+            color: rgb(255, 255, 255);
+            font-style: normal;
+        }
+    }
+    .shop-deil-btn {
+        height: 44px;
+        background: $elementColor;
+        border-bottom: 0.5px solid rgb(229,229,229);
+        >ul {
+            box-sizing: border-box;
+            height: 100%;
+            >li {
+                box-sizing: border-box;
+                float: left;
+                width: 25%;
+                height: 100%;
+                padding: 0 14px;
+                .active {
+                    height: 100%;
+                    border-bottom: 2px solid $styleColor;
+                    color: $styleColor;
+                }
+                >span {
+                    font-size: 15px;
+                    display: inline-block;
+                    width: 100%;
+                    height: 100%;
+                    line-height: 44px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+.shop-serve {
+    width: 100%;
+    margin-bottom: 8px;
+    .serve-active {
+        color: $styleColor;
+    }
+    >ul {
+        height: 44px;
+        >li {
+            float: left;
+            height: 100%;
+            width: 33.33%;
+            background: $elementColor;
+            text-align: center;
+            >span {
+                line-height: 44px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.shop-serve-deil {
+    width: 100%;
+    >ul {
+        >li {
+            float: left;
+            width: 48%;
+            background: $elementColor;
+            padding-bottom: 8px;
+            margin-bottom: 8px;
+            img {
+                width: 100%;
+                height: 181.5px;
+            }
+            p {
+                padding-left: 12px;
+                margin-bottom: 16px;
+                margin-top: 8px;
+                font-size: 13px;
+                color: rgb(51, 51, 51);
+            }
+            div {
+                box-sizing: border-box;
+                padding-left: 12px;
+                >span {
+                    color: rgb(241, 8, 101);
+                }
+                .new-price-unit {
+                    font-size: 10px;
+                }
+                .new-price {
+                    font-size: 18px;
+                }
+                .old-price {
+                    font-size: 10px;
+                    text-decoration: line-through;
+                    color: rgb(153, 153, 153);
+                }
+            }
+        }
+        li:nth-child(even) {
+            float: right;
+        }
+    }
+}
+
+.shop-content {
+    padding: 8px 0;
+    position: relative;
+    ul {
+        padding-left: 15px;
+        >li {
+            min-height: 44px;
+            box-sizing: border-box;
+            border-bottom: 0.5px solid $spanLiBottomColor;
+            span {
+                font-size: 15px;
+                line-height: 44px;
+            }
+            span:nth-child(1) {
+                color: rgb(102, 102, 102);
+            }
+            span:nth-child(2) {
+                position: absolute;
+                right: 15px;
+                max-width: 50%;
+                text-align: right;
+            }
+            >img {
+                width: 105px;
+                height: 105px;
+                float: left;
+                margin: 12px 15px 12px 0;
+            }
+        }
+    }
+    .shop-content1,
+    .shop-content2,
+    .shop-content3 {
+        background-color: $elementColor;
+    }
+    .shop-content1 {
+        margin-bottom: 9.5px;
+    }
+    .shop-content2 {
+        margin-bottom: 8px;
+        .shop-adress {
+            >div {
+                float: right;
+                max-width: 60%;
+                margin: 12px 0;
+                box-sizing: border-box;
+                padding-right: 15px;
+                text-align: right;
+                >div {
+                    display: inline;
+                }
+            }
+        }
+    }
+}
+
+.comment-content1 {
+    background-color: $elementColor;
+    >div {
+        padding: 16px 0 0 0;
+        margin-left: 15px;
+        box-sizing: border-box;
+    }
+    .all-comment {
+        border-top: 0.5px solid $spanLiBottomColor;
+        padding: 16px 0;
+    }
+    .comment-btn {
+        width: 64px;
+        height: 24px;
+        border: 1px solid $styleColor;
+        border-radius: 50px;
+        text-align: center;
+        box-sizing: border-box;
+        float: left;
+        margin: 0 24px 16px 0;
+        >span {
+            font-size: 11px;
+        }
+    }
+    .btn-active {
+        background-color: $styleColor;
+        >span {
+            color: #fff;
+        }
+    }
+    .comment-deil {
+        box-sizing: border-box;
+        >img {
+            float: left;
+            margin-right: 12px;
+        }
+        >div {
+            float: left;
+            >number {
+                font-size: 13px;
+            }
+            >span {
+                display: block;
+                width: 52px;
+                height: 16px;
+                background-color: rgb(201, 134, 213);
+                font-size: 10px;
+                color: #fff;
+                border-radius: 50px;
+                text-align: center;
+            }
+        }
+        >span {
+            float: right;
+            margin-right: 15px;
+            font-size: 12px;
+            color: rgb(83, 83, 83);
+        }
+    }
+    p {
+        padding: 16px 0;
+        margin: 0;
+        font-size: 12px;
+        color: rgb(83, 83, 83);
+    }
+    .comment-pic {
+        box-sizing: border-box;
+        >img {
+            width: 105px;
+            height: 105px;
+            margin-right: 15px;
+            float: left;
+        }
+        >img:nth-child(3) {
+            margin-right: 0;
+        }
+    }
+    .comment-com {
+        box-sizing: border-box;
+        margin: 16px 0 0 0;
+        height: 70px;
+        .tooltip-inner {
+            max-width: 100%;
+            margin-right: 15px;
+            text-align: left;
+            padding: 13px 15px;
+            background-color: rgb(247, 247, 247);
+            color: rgb(83, 83, 83);
+            font-size: 12px;
+        }
+        .tooltip-arrow {
+            border-bottom-color: rgb(247, 247, 247);
+            border-width: 0 10px 10px;
+            top: -5px;
+            left: 10%;
+        }
+    }
+}
+
+.deil-beauty {
+    margin-top: 8px;
+    >ul {
+        >li {
+            height: 76px;
+            width: 100%;
+            background: $elementColor;
+            padding: 8px 15px;
+            box-sizing: border-box;
+            margin-bottom: 8px;
+            >img {
+                width: 60px;
+                height: 60px;
+                border-radius: 10px;
+                float: left;
+            }
+            >div {
+                float: left;
+                >p {
+                    margin-bottom: 0px;
+                    margin-left: 12px;
+                    font-size: 14px;
+                }
+                >p:nth-child(3) {
+                    font-size: 12px;
+                }
+            }
+            .deil-beauty-right {
+                float: right;
+                text-align: right;
+                >span {
+                    display: block;
+                    width: 56px;
+                    height: 20px;
+                    font-size: 11px;
+                    border: 1px solid $styleColor;
+                    border-radius: 50px;
+                    text-align: center;
+                    color: $styleColor;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}

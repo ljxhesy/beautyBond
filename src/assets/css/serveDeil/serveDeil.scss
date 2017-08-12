@@ -1,0 +1,542 @@
+$elementColor:#fff;
+$styleColor:rgb(128, 64, 144);
+$sizeColor:rgb(51, 51, 51);
+$spanLiBottomColor:rgb(229, 229, 229);
+
+h3 {
+    margin: 0;
+}
+
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+.serveDeil-header {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    #serve-back {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        top: 15px;
+        left: 8px;
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 50%;
+        text-align: center;
+        >i {
+            color: #fff;
+        }
+    }
+    #serve-more-btn {
+        position: absolute;
+        padding: 0 10px;
+        top: 15px;
+        right: 8px;
+        >i {
+            color: #fff;
+        }
+    }
+    ul {
+        height: 100%;
+        width: 100%;
+        >li {
+            width: 100%;
+            >img {
+                width: 100%;
+                height: 248px;
+            }
+        }
+    }
+}
+
+.serve-content {
+    .content-header {
+        padding: 16px 0 0 15px;
+        height: 76px;
+        background: $elementColor;
+        margin-bottom: 8px;
+        >h3 {
+            font-size: 16px;
+            letter-spacing: 1.6px;
+            line-height: 24px;
+            margin-bottom: 6px;
+        }
+        .price-unit {
+            font-size: 12px;
+            color: $styleColor;
+            line-height: 24px;
+            letter-spacing: 1.2px;
+        }
+        .count-price {
+            font-size: 18px;
+            color: $styleColor;
+            line-height: 24px;
+            letter-spacing: 1.8px;
+            margin-right: 5px;
+        }
+        .real-price {
+            font-size: 10px;
+            color: rgb(153, 153, 153);
+            text-decoration: line-through;
+            margin-right: 14px;
+        }
+        .count-time {
+            font-size: 9px;
+            color: rgb(153, 153, 153);
+            letter-spacing: 0.9px;
+        }
+    }
+    .content-intro {
+        background: $elementColor;
+        margin-bottom: 10px;
+        >div {
+            box-sizing: border-box;
+            padding: 12px 0 12px 15px;
+        }
+        .intro-top {
+            >div:first-child {
+                padding-bottom: 5px;
+                border-bottom: 0.5px solid rgb(230, 230, 230);
+                >span {
+                    font-size: 15px;
+                    color: rgb(51, 51, 51);
+                    letter-spacing: 1.5px;
+                    line-height: 24px;
+                }
+            }
+            >div:nth-child(2) {
+                padding-top: 10px;
+                >p {
+                    color: rgb(102, 102, 102);
+                    line-height: 24px;
+                    letter-spacing: 1.2px;
+                    font-size: 12px;
+                    padding-right: 14px;
+                }
+            }
+        }
+        .intro-bottom {
+            padding: 0 0 0 15px;
+            position: relative;
+            border-top: 0.5px solid rgb(230, 230, 230);
+            >ol {
+                padding: 13px 15px;
+                width: 85%;
+                float: left;
+                >li {
+                    float: left;
+                    list-style: disc;
+                    color: rgb(238, 178, 0);
+                    width: 25%;
+                    >span {
+                        color: rgb(102, 102, 102);
+                        font-size: 12px;
+                    }
+                }
+            }
+            >i {
+                position: absolute;
+                right: 15px;
+                top: 50%;
+                transform: translateY(-50%);
+                color: rgb(153, 153, 153);
+            }
+        }
+    }
+}
+
+.deil-header {
+    height: 44px;
+    padding-left: 15px;
+    >span {
+        font-size: 15px;
+        color: rgb(51, 51, 51);
+        letter-spacing: 1.5px;
+        line-height: 44px;
+        display: inline-block;
+        height: 100%;
+        font-family: PingFangSC-Light;
+    }
+}
+
+.content-deil {
+    background: $elementColor;
+    width: 100%;
+    margin-bottom: 10px;
+    .deil-deil {
+        >ul {
+            padding: 0 0 14px 15px;
+            >li {
+                float: left;
+                width: 90px;
+                position: relative;
+                margin-right: 15px;
+                img {
+                    border-radius: 5px;
+                    width: 100%;
+                }
+                >div {
+                    width: 20px;
+                    height: 20px;
+                    background: url(../../images/540.png) no-repeat center;
+                    padding-left: 4px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    border-top-left-radius: 5px;
+                    >span {
+                        font-size: 10px;
+                        color: #fff;
+                    }
+                }
+                p {
+                    font-size: 13px;
+                    color: rgb(51, 51, 51);
+                    line-height: 24px;
+                }
+                >span {
+                    font-size: 13px;
+                    color: rgb(153, 153, 153);
+                    letter-spacing: 1.2px;
+                }
+            }
+        }
+    }
+}
+
+.deil-intro {
+    background: $elementColor;
+    margin-bottom: 10px;
+    .deil-intro-content {
+        border-top: 0.5px solid rgb(230, 230, 230);
+        margin-left: 15px;
+        padding: 10px 10px 10px 0;
+        li {
+            >div {
+                float: left;
+                max-width: 80%;
+            }
+        }
+        span {
+            font-size: 12px;
+            color: rgb(102, 102, 102);
+            letter-spacing: 1.2px;
+            line-height: 24px;
+        }
+    }
+}
+
+.shop-intro {
+    background: $elementColor;
+    padding-left:15px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    .intro-header{
+    	padding-left: 0;
+    }
+    .shop-content1 {
+    	padding:0 0 15px 0;
+        img {
+            width: 100px;
+            height: 100px;
+            float: left;
+            margin-right: 12px;
+        }
+        ul{
+        	float: left;
+        	max-width:65%;
+        	>li{
+        		h3{
+        			font-size: 15px;
+        			color:rgb(51,51,51);
+        			font-weight: bold;
+        			line-height: 24px;
+        		}
+        		span{
+        			font-size: 12px;
+        			line-height: 15px;
+        			letter-spacing: 1.2px;
+        			color:rgb(112,112,112);
+        		}
+        		.star{
+        			color:rgb(251,221,103);
+        			font-size: 12px;
+        		}
+        		.site{
+        			color:rgb(204,204,204);
+        			font-size: 12px;
+        		}
+        		.new-shop{
+        			display: inline-block;
+        			font-size: 10px;
+        			width:28px;
+        			height: 14px;
+        			background: rgb(238,178,0);
+        			color:#fff;
+        			border-radius: 2px;
+        			text-align:center;
+        			margin-left: 12px;
+        		}
+
+        	}
+        	.list-site{
+        		padding: 5px 0;
+        		box-sizing: border-box;
+        		margin-top: 5px;
+        		>span{
+        			float: left;
+        			width: 42%;
+        			color:rgb(102,102,102);
+        			text-align: right;
+        		}
+        		>span:first-child{
+        			text-align:left;
+        			border-right:0.5px solid rgb(204,204,204);
+        		}
+        	}
+        }
+
+    }
+    .see-more{
+        	width: 100%;
+        	height: 44px;
+        	text-align: center;
+        	box-sizing: border-box;
+        	border-top:0.5px solid rgb(230,230,230);
+        	span{
+        		font-size: 12px;
+        		color:$styleColor;
+        		line-height: 44px;
+        		letter-spacing: 0.6px;
+        	}
+        }
+}
+
+.comment-content {
+    background-color: $elementColor;
+    border-top: 0.5px solid $spanLiBottomColor;
+    >div {
+        padding: 16px 0 0 0;
+        margin-left: 15px;
+        box-sizing: border-box;
+    }
+    .all-comment {
+        border-top: 0.5px solid $spanLiBottomColor;
+        padding: 16px 0;
+    }
+    .comment-btn {
+        width: 64px;
+        height: 24px;
+        border: 1px solid $styleColor;
+        border-radius: 50px;
+        text-align: center;
+        box-sizing: border-box;
+        float: left;
+        margin: 0 24px 16px 0;
+        >span {
+            font-size: 11px;
+        }
+    }
+    .btn-active {
+        background-color: $styleColor;
+        >span {
+            color: #fff;
+        }
+    }
+    .comment-deil {
+        box-sizing: border-box;
+        >img {
+            float: left;
+            margin-right: 12px;
+        }
+        >div {
+            float: left;
+            >number {
+                font-size: 13px;
+            }
+            >span {
+                display: block;
+                width: 52px;
+                height: 16px;
+                background-color: rgb(201, 134, 213);
+                font-size: 10px;
+                color: #fff;
+                border-radius: 50px;
+                text-align: center;
+            }
+        }
+        >span {
+            float: right;
+            margin-right: 15px;
+            font-size: 12px;
+            color: rgb(83, 83, 83);
+        }
+    }
+    p {
+        padding: 16px 0;
+        margin: 0;
+        font-size: 12px;
+        color: rgb(83, 83, 83);
+    }
+    .comment-pic {
+        box-sizing: border-box;
+        >img {
+            width: 105px;
+            height: 105px;
+            margin-right: 15px;
+            float: left;
+        }
+        >img:nth-child(3) {
+            margin-right: 0;
+        }
+    }
+    .comment-com {
+        box-sizing: border-box;
+        margin: 16px 0 0 0;
+        height: 70px;
+        .tooltip-inner {
+            max-width: 100%;
+            margin-right: 15px;
+            text-align: left;
+            padding: 13px 15px;
+            background-color: rgb(247, 247, 247);
+            color: rgb(83, 83, 83);
+            font-size: 12px;
+        }
+        .tooltip-arrow {
+            border-bottom-color: rgb(247, 247, 247);
+            border-width: 0 10px 10px;
+            top: -5px;
+            left: 10%;
+        }
+    }
+}
+
+.serveDeil-btn{
+	height: 49px;
+	width: 100%;
+	position: fixed;
+	z-index:2000;
+	bottom:0;
+	background: $elementColor;
+	div{
+		float:left;
+		height: 100%;
+	}
+	div:nth-child(1){
+		width:24%;
+		text-align: center;
+		i{
+			color:rgb(253,117,128);
+			font-size: 23px;
+		}
+		p{
+			font-size: 10px;
+			text-align: center;
+		}
+	}
+	div:nth-child(2){
+		width: 76%;
+		background: $styleColor;
+		color:#fff;
+		text-align: center;
+		>span{
+			line-height: 45px;
+			font-size: 15px;
+		}
+	}
+}
+
+.alertWay{
+    width:100%;
+    height: 342.5px;
+    position: relative;
+    .alertWay-header{
+        height: 40px;
+        position: relative;
+        text-align: center;
+        h3{
+            font-size: 16px;
+            line-height: 40px;
+            font-weight: normal;
+        }
+        i{
+            position: absolute;
+            right: 15px;
+            top:15px;
+        }
+    }
+    .alertWay-content{
+        padding: 0 15px;
+        >img{
+            width: 70px;
+            height: 70px;
+            border-radius: 6px;
+            float: left;
+        }
+        >div{
+            float: left;
+            margin-left:12px;
+            padding-top:12px;
+            p{
+                font-size: 13px;
+                color:rgb(51,51,51);
+                margin-bottom: 7px;
+            }
+            span{
+                color:$styleColor;
+                font-size: 15px;
+            }
+            span:first-child{
+                font-size: 12px;
+            }
+        }
+    }
+    .alertWay-footer{
+        margin-left: 15px;
+        border-top: 0.5px solid $spanLiBottomColor;
+        padding-top: 20px;
+        margin-top: 20px;
+        h4{
+            margin: 0;
+            margin-bottom: 15px;
+
+            font-weight: normal;
+        }
+        div{
+            button{
+                background: rgb(230,230,230);
+                border-radius: 3px;
+                color:rgb(102,102,102);
+                border:none;
+                width: 70px;
+                height: 27px;
+                margin-right: 15px;
+                font-size: 13px;
+                outline:none;
+            }
+            .btn-active{
+                background: $styleColor;
+                color:#fff;
+            }
+        }
+    }
+    .alert-btn-confirm{
+        width: 100%;
+        height: 49px;
+        background: $styleColor;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        line-height: 49px;
+        font-size: 16px;
+        a{
+            color: #fff;
+        }
+        a:visited{
+            color:#fff;
+        }
+    }
+}

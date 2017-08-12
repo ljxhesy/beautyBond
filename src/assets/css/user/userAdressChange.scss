@@ -1,0 +1,95 @@
+$elementColor:#fff;
+$bottomColor:rgb(229, 229, 229);
+
+.userAdressChange{
+	input{
+	height:90%;
+	border:none;
+	outline: none;
+	width:75%;
+	font-size: 15px;
+	padding-left:15px;
+}
+
+.user-name{
+	height:44px;
+	background-color: $elementColor;
+	box-sizing: border-box;
+	padding-left:15px;
+	border-bottom: 0.5px solid $bottomColor;
+
+	>span,>input{
+		float:left;
+	}
+	>span{
+		font-size:15px;
+		line-height:44px;
+		color:rgb(34,34,34);
+	}
+	>input{
+		float:right;
+	}
+}
+
+.site-choose{
+	height:44px;
+	background-color: $elementColor;
+	border-bottom: 0.5px solid $bottomColor;
+}
+
+.adress-deil:nth-child(1){
+	border-bottom:0.5px solid $bottomColor;
+}
+
+.adress-deil{
+	height:44px;
+	padding-left:15px;
+	background-color: $elementColor;
+	>span{
+		font-size:15px;
+		line-height:44px;
+		color:rgb(34,34,34);
+	}
+	>input{
+		float:right;
+	}
+}
+
+.modified-site{
+	height:44px;
+	background-color: $elementColor;
+	padding-left:15px;
+	border-top:0.5px solid $bottomColor;
+	position: relative;
+	>span:nth-child(1){
+		font-size:15px;
+		line-height: 44px;
+	}
+	>span:nth-child(2){
+		position: absolute;
+		color:rgb(34,34,34);
+		top:50%;
+		transform: translateY(-50%);
+		right:15px;
+	}
+}
+
+.my-footer{
+	position:absolute;
+	bottom:0;
+}
+
+.site-choose{
+	padding-left:15px;
+	font-size: 15px;
+	img{
+		width: 18px;
+		height: 18px;
+	}
+	span{
+		line-height: 44px;
+		color:rgb(34,34,34);
+	}
+}
+}
+

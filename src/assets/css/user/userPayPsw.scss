@@ -1,0 +1,46 @@
+$elementColor:#fff;
+$bottomColor:rgb(229, 229, 229);
+
+
+.user-name{
+	height:44px;
+	background-color: $elementColor;
+	box-sizing: border-box;
+	padding-left:15px;
+	border-bottom: 0.5px solid $bottomColor;
+
+	>span,>input{
+		float:left;
+	}
+	>span{
+		font-size:15px;
+		line-height:44px;
+	}
+	>input{
+		float:right;
+		width:76%;
+		height:100%;
+		border:none;
+		outline:none;
+		font-size:14px;
+		color:rgb(204,204,204);
+		text-align:right;
+		padding-right: 15px;
+	}
+}
+
+.user-psw-tips{
+	padding-left: 15px;
+	box-sizing: border-box;
+	font-size: 12px;
+	margin-top: 12px;
+}
+
+.my-footer{
+	background-color: rgb(128,64,144);
+	position: absolute;
+	bottom:0;
+	>span{
+		color:#fff;
+	}
+}

@@ -1,0 +1,66 @@
+.userAdressChange input {
+  height: 90%;
+  border: none;
+  outline: none;
+  width: 75%;
+  font-size: 15px;
+  padding-left: 15px; }
+.userAdressChange .user-name {
+  height: 44px;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding-left: 15px;
+  border-bottom: 0.5px solid #e5e5e5; }
+  .userAdressChange .user-name > span, .userAdressChange .user-name > input {
+    float: left; }
+  .userAdressChange .user-name > span {
+    font-size: 15px;
+    line-height: 44px;
+    color: #222222; }
+  .userAdressChange .user-name > input {
+    float: right; }
+.userAdressChange .site-choose {
+  height: 44px;
+  background-color: #fff;
+  border-bottom: 0.5px solid #e5e5e5; }
+.userAdressChange .adress-deil:nth-child(1) {
+  border-bottom: 0.5px solid #e5e5e5; }
+.userAdressChange .adress-deil {
+  height: 44px;
+  padding-left: 15px;
+  background-color: #fff; }
+  .userAdressChange .adress-deil > span {
+    font-size: 15px;
+    line-height: 44px;
+    color: #222222; }
+  .userAdressChange .adress-deil > input {
+    float: right; }
+.userAdressChange .modified-site {
+  height: 44px;
+  background-color: #fff;
+  padding-left: 15px;
+  border-top: 0.5px solid #e5e5e5;
+  position: relative; }
+  .userAdressChange .modified-site > span:nth-child(1) {
+    font-size: 15px;
+    line-height: 44px; }
+  .userAdressChange .modified-site > span:nth-child(2) {
+    position: absolute;
+    color: #222222;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px; }
+.userAdressChange .my-footer {
+  position: absolute;
+  bottom: 0; }
+.userAdressChange .site-choose {
+  padding-left: 15px;
+  font-size: 15px; }
+  .userAdressChange .site-choose img {
+    width: 18px;
+    height: 18px; }
+  .userAdressChange .site-choose span {
+    line-height: 44px;
+    color: #222222; }
+
+/*# sourceMappingURL=userAdressChange.css.map */

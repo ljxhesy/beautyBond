@@ -1,0 +1,16 @@
+body {
+  background: #fff; }
+
+.refund-deil {
+  padding: 16.5px 0 15px 16.5px; }
+  .refund-deil > h4 {
+    font-size: 16px;
+    margin-bottom: 24px;
+    color: #333333; }
+  .refund-deil > ul > li {
+    margin-bottom: 20px; }
+    .refund-deil > ul > li > span {
+      font-size: 13px;
+      color: #535353; }
+
+/*# sourceMappingURL=refund.css.map */

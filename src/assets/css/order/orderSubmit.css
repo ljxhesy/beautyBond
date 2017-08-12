@@ -1,0 +1,160 @@
+.serve-msg > ul {
+  background: #fff; }
+  .serve-msg > ul > li {
+    min-height: 44px;
+    font-size: 13px;
+    background: #fff;
+    line-height: 44px;
+    margin-left: 15px;
+    box-sizing: border-box;
+    border-bottom: 0.5px solid #e5e5e5; }
+    .serve-msg > ul > li > h5 {
+      font-size: 15px;
+      line-height: 44px; }
+    .serve-msg > ul > li > span:first-child {
+      color: #333333; }
+    .serve-msg > ul > li > span:last-child {
+      float: right;
+      margin-right: 15px;
+      color: #666666; }
+    .serve-msg > ul > li #choose-time {
+      color: #cccccc; }
+  .serve-msg > ul .site-show > div {
+    float: right;
+    box-sizing: border-box;
+    padding: 15px 15px 15px 0; }
+    .serve-msg > ul .site-show > div > img {
+      float: left; }
+    .serve-msg > ul .site-show > div > i {
+      float: right;
+      font-size: 13px;
+      color: #999999;
+      margin-left: 6px; }
+    .serve-msg > ul .site-show > div > p {
+      max-width: 191px;
+      line-height: 20px;
+      text-align: right;
+      float: left;
+      font-size: 12px; }
+  .serve-msg > ul .link-way > div {
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin: 12px 0;
+    box-sizing: border-box;
+    line-height: 20px; }
+  .serve-msg > ul .link-way > div:first-child {
+    border-right: 0.5px solid #e5e5e5; }
+
+.goodsDeil .goods-header {
+  height: 44px;
+  background: #fff;
+  position: relative; }
+  .goodsDeil .goods-header > div {
+    position: absolute;
+    height: 100%;
+    line-height: 44px; }
+  .goodsDeil .goods-header .goods-shop {
+    left: 15px; }
+    .goodsDeil .goods-header .goods-shop > span {
+      font-size: 15px; }
+.goodsDeil > ul {
+  background: #fff;
+  padding: 0 15px; }
+  .goodsDeil > ul > li {
+    background: #fff;
+    padding: 12.5px 0px 12.5px 0px;
+    border-bottom: 0.5px solid #e6e6e6; }
+    .goodsDeil > ul > li > span {
+      font-size: 14px;
+      color: #333333; }
+    .goodsDeil > ul > li > span:last-child {
+      float: right;
+      color: #666678; }
+    .goodsDeil > ul > li .buy-second {
+      width: 90px;
+      height: 30px;
+      border-radius: 50px;
+      border: 1px solid #999999;
+      text-align: center;
+      line-height: 28px;
+      font-size: 12px;
+      color: #999999 !important; }
+    .goodsDeil > ul > li .book-btn {
+      float: left;
+      margin-right: 35px; }
+    .goodsDeil > ul > li .connect-btn {
+      float: right; }
+    .goodsDeil > ul > li .btn-active {
+      color: #804090 !important;
+      border: 1px solid #804090; }
+  .goodsDeil > ul > li:last-child {
+    padding-bottom: 11.5px; }
+  .goodsDeil > ul .real-pay > span {
+    color: #333333; }
+  .goodsDeil > ul .real-pay > span:last-child {
+    color: #804090;
+    font-size: 18px; }
+  .goodsDeil > ul .goods-list {
+    padding: 8px 0px 8px 0;
+    border-bottom: 0.5px solid #e5e5e5; }
+    .goodsDeil > ul .goods-list img {
+      float: left;
+      margin-right: 16px;
+      width: 50px;
+      height: 50px; }
+    .goodsDeil > ul .goods-list span {
+      font-size: 13px; }
+    .goodsDeil > ul .goods-list div {
+      float: left;
+      width: 80%; }
+      .goodsDeil > ul .goods-list div > p {
+        font-size: 13px;
+        margin-bottom: 8px; }
+        .goodsDeil > ul .goods-list div > p > span {
+          float: right; }
+      .goodsDeil > ul .goods-list div .goods-btn {
+        display: block;
+        width: 50px;
+        height: 18px;
+        font-size: 9px;
+        border: 1px solid #804090;
+        border-radius: 50px;
+        color: #804090; }
+      .goodsDeil > ul .goods-list div .goods-price {
+        font-size: 13px; }
+      .goodsDeil > ul .goods-list div .goods-price1 {
+        float: right; }
+    .goodsDeil > ul .goods-list .shop-color {
+      color: #666666;
+      font-size: 12px; }
+
+.order-footer {
+  height: 49px;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+  .order-footer div {
+    float: left;
+    text-align: center; }
+    .order-footer div span {
+      line-height: 49px;
+      font-size: 13px;
+      color: #804090; }
+  .order-footer div:nth-child(1) {
+    width: 70%;
+    text-align: left; }
+    .order-footer div:nth-child(1) span:nth-child(1) {
+      color: #333333;
+      margin-left: 12px;
+      margin-right: 5px; }
+    .order-footer div:nth-child(1) span:nth-child(3) {
+      font-size: 15px; }
+  .order-footer div:nth-child(2) {
+    width: 30%;
+    background: #804090; }
+    .order-footer div:nth-child(2) span {
+      color: #fff; }
+
+/*# sourceMappingURL=orderSubmit.css.map */

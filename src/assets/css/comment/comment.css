@@ -1,0 +1,23 @@
+.comment .comment-inside-content {
+  background: #fff; }
+  .comment .comment-inside-content .comment-content-header {
+    box-sizing: border-box;
+    border-bottom: 0.5px solid #e5e5e5;
+    height: 52px;
+    width: 100%;
+    position: relative;
+    padding-left: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px; }
+    .comment .comment-inside-content .comment-content-header img {
+      width: 44px;
+      height: 44px;
+      border-radius: 3px;
+      margin-right: 12px; }
+    .comment .comment-inside-content .comment-content-header span {
+      font-size: 14px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%); }
+
+/*# sourceMappingURL=comment.css.map */

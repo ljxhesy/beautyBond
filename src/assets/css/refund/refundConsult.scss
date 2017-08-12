@@ -1,0 +1,28 @@
+$elementColor:#fff;
+$styleColor:rgb(128, 64, 144);
+$sizeColor:rgb(51, 51, 51);
+$spanLiBottomColor:rgb(229, 229, 229);
+
+.consult-deil{
+	background:$elementColor;
+	height: 94px;
+	box-sizing: border-box;
+	padding: 16px 15px;
+	position: relative;
+	margin-bottom: 8px;
+	>img{
+		position: absolute;
+		top:50%;
+		transform: translateY(-50%);
+	}
+	>p{
+		position: absolute;
+		left:67px;
+		color:rgb(51,51,51);
+	}
+	>p:last-child{
+		bottom:16px;
+		color:rgb(135,135,135);
+		font-size: 12px;
+	}
+}

@@ -1,0 +1,90 @@
+.clearfloat:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0; }
+
+.clearfloat {
+  zoom: 1; }
+
+a {
+  text-decoration: none;
+  color: #333333; }
+
+a:visited {
+  color: #333333; }
+
+body {
+  background-color: #f0f0f0;
+  font-family: PingFangSC-Regular;
+  height: 100%;
+  margin: 0; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+
+li {
+  list-style-type: none; }
+
+p {
+  margin: 0; }
+
+h5 {
+  margin: 0; }
+
+@font-face {
+  font-family: "iconfont";
+  src: url("../css/iconfont/iconfont.eot");
+  /* IE9*/
+  src: url("../css/iconfont/iconfont.eot") format("embedded-opentype"), url("../css/iconfont/iconfont.woff") format("woff"), url("../css/iconfont/iconfont.ttf") format("truetype"), url("../css/iconfont/iconfont.svg") format("svg");
+  /* iOS 4.1- */ }
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+.userInfo-header {
+  height: 50px;
+  text-align: center;
+  position: relative;
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5; }
+  .userInfo-header > div {
+    position: absolute;
+    top: 50%;
+    height: 100%;
+    padding-left: 13.5px;
+    transform: translateY(-50%); }
+    .userInfo-header > div > img {
+      margin-top: 15px; }
+  .userInfo-header > span {
+    font-size: 18px;
+    line-height: 50px;
+    color: #030303;
+    letter-spacing: 1.8px; }
+
+.userInfo-footer {
+  height: 49px;
+  background-color: #fff;
+  text-align: center;
+  width: 100%; }
+  .userInfo-footer span {
+    line-height: 49px;
+    font-size: 16px;
+    color: #804090; }
+
+.my-footer {
+  background-color: #804090; }
+  .my-footer span {
+    color: #fff; }
+
+.my-footer1 {
+  position: absolute;
+  bottom: 0; }
+
+/*# sourceMappingURL=public.css.map */

@@ -1,0 +1,71 @@
+h2,
+h3 {
+  margin: 0; }
+
+.single-info {
+  height: 180px;
+  background: -webkit-linear-gradient(right bottom, #502e7e, #804090);
+  background: -o-linear-gradient(top left, #502e7e, #804090);
+  background: -moz-linear-gradient(top left, #502e7e, #804090);
+  background: linear-gradient(to top left, #502e7e, #804090);
+  padding: 15px;
+  border: 1px solid black; }
+  .single-info .info-header {
+    text-align: right; }
+    .single-info .info-header > img {
+      margin-left: 15px; }
+  .single-info .single-content {
+    margin-top: 15px; }
+    .single-info .single-content #icon {
+      width: 77px;
+      height: 77px;
+      float: left;
+      margin-right: 17px; }
+    .single-info .single-content > div {
+      float: left; }
+      .single-info .single-content > div h2,
+      .single-info .single-content > div span {
+        color: #fff; }
+      .single-info .single-content > div h2 {
+        font-size: 24px;
+        letter-spacing: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px; }
+      .single-info .single-content > div span {
+        font-size: 12px;
+        letter-spacing: 3px; }
+  .single-info #code {
+    float: right;
+    margin-top: 25px;
+    margin-right: 15px; }
+
+.single-info-content {
+  background: #fff;
+  padding: 20px 15px;
+  margin-bottom: 8px; }
+  .single-info-content h3 {
+    font-size: 15px;
+    color: #333333;
+    letter-spacing: 0.8px;
+    line-height: 24px; }
+  .single-info-content ul li {
+    float: left;
+    width: 33%;
+    /*text-align: center;*/
+    padding-left: 40px; }
+    .single-info-content ul li span {
+      font-size: 10px;
+      color: #999999;
+      line-height: 24px;
+      letter-spacing: 1px; }
+    .single-info-content ul li p {
+      font-size: 24px;
+      color: #333333;
+      line-height: 24px;
+      font-family: PingFangSC-Light;
+      /*text-align: left;*/ }
+  .single-info-content ul .info-money {
+    /*text-align: left;*/
+    padding-left: 10px; }
+
+/*# sourceMappingURL=userSingle.css.map */

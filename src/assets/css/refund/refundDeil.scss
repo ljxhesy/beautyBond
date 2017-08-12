@@ -1,0 +1,171 @@
+$elementColor:#fff;
+$styleColor:rgb(128, 64, 144);
+$sizeColor:rgb(51, 51, 51);
+$spanLiBottomColor:rgb(229, 229, 229);
+
+.refundDeil{
+    a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    color:$styleColor;
+}
+.active-btn:visited{
+    color:$styleColor;
+}
+
+.userInfo-header {
+    .consult {
+        position: absolute;
+        right: 0;
+        padding-right: 15px;
+        >span {
+            line-height: 44px;
+            font-size: 15px;
+            color: rgb(51, 51, 51);
+        }
+    }
+}
+
+.consult-time {
+    height: 44px;
+    background: rgb(245, 164, 90);
+    box-sizing: border-box;
+    padding: 0 15px;
+    >span {
+        color: #fff;
+        font-size: 13px;
+        line-height: 44px;
+    }
+    >span:last-child {
+        float: right;
+    }
+}
+
+.consult-time1{
+    background-color: rgb(243,113,113)
+}
+
+.consult-time2{
+    background-color: rgb(201,134,213)
+}
+
+.consult-due{
+    background: $elementColor;
+    height: 44px;
+    padding:0 15px;
+    line-height: 44px;
+    border:0.5px solid $spanLiBottomColor;
+    >span{
+        font-size: 15px;
+        color:rgb(51,51,51);
+    }
+}
+
+.consult-choose {
+    background: $elementColor;
+    box-sizing: border-box;
+    >ul {
+        padding: 16px 0 0 15px;
+        >li:first-child {
+            border-bottom: 0.5px solid $spanLiBottomColor;
+            padding-bottom: 16px;
+        }
+        >li:last-child{
+            padding: 12px 0;
+        }
+        .choose-btn {
+            div {
+                float: left;
+                width: 50%;
+                text-align: center;
+                >span {
+                    width: 90px;
+                    height: 30px;
+                    display: inline-block;
+                    border: 0.5px solid rgb(153, 153, 153);
+                    border-radius: 50px;
+                    line-height: 28px;
+                    font-size: 12px;
+                    text-align: center;
+                }
+            }
+            div:last-child{
+                >span{
+                    color:$styleColor;
+                    border-color:$styleColor;
+                }
+            }
+        }
+        .choose-btn1{
+            div{
+                width: 33%; 
+            }
+        }
+    }
+    .normal-style {
+        padding: 0 0 0 15px;
+        >li {
+            list-style-type: disc;
+            color: rgb(102, 102, 102);
+        }
+    }
+}
+
+.consult-deil{
+    background: $elementColor;
+    padding-left: 15px;
+    margin-top: 8px;
+
+    >ul{
+        >li{
+            height: 44px;
+            padding-right: 15px;
+            line-height: 44px;
+            border-bottom:0.5px solid $spanLiBottomColor;
+            >span:first-child{
+                color:rgb(102,102,102);
+            }
+            >span:last-child{
+                float: right;
+            }
+            >div{
+                float:right;
+                >input{
+                    width:100%;
+                    border: none;
+                    outline: none;
+                    text-align: right;
+                }
+            }
+        }
+        >li:last-child{
+            border:none;
+        }
+    }
+}
+
+.consult-return{
+    margin-top: 0;
+    li:first-child{
+        span{
+            color:rgb(51,51,51);
+        }
+    }
+    li:last-child{
+        span{
+            font-size:13px;
+            color:rgb(102,102,102);
+        }
+    }
+}
+
+.return-date{
+    padding: 12px 0 0 15px;
+    >span{
+        font-size: 10px;
+        color:rgb(102,102,102);
+    }
+}
+}
+

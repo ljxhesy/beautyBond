@@ -1,0 +1,81 @@
+.payFinish {
+  box-sizing: border-box; }
+  .payFinish .payFinish-notice {
+    box-sizing: border-box;
+    padding-left: 15px;
+    width: 100%;
+    height: 200px;
+    background: #fff;
+    position: relative; }
+    .payFinish .payFinish-notice > div {
+      width: 100%;
+      height: 100%;
+      border-bottom: 0.5px solid #e6e6e6; }
+      .payFinish .payFinish-notice > div > div {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        left: 50%;
+        text-align: center; }
+        .payFinish .payFinish-notice > div > div > img {
+          margin-bottom: 26px; }
+        .payFinish .payFinish-notice > div > div p {
+          font-size: 15px;
+          color: #666666;
+          letter-spacing: 1.5px; }
+  .payFinish .payFinish-btn {
+    height: 49px;
+    position: absolute;
+    bottom: 0;
+    width: 100%; }
+    .payFinish .payFinish-btn button {
+      float: left;
+      width: 50%;
+      height: 100%;
+      background: #fff;
+      color: #804090;
+      outline: none;
+      border: none;
+      font-size: 16px;
+      letter-spacing: 1.6px; }
+    .payFinish .payFinish-btn .payFinish-btn-active {
+      background: #804090;
+      color: #fff; }
+  .payFinish #indexGo a {
+    color: #804090; }
+  .payFinish #checkOrder a {
+    color: #fff; }
+  .payFinish .mint-popup {
+    border-radius: 10px; }
+
+.code-content {
+  width: 280px;
+  height: 282px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 18px 0 15px 0;
+  border-radius: 10px;
+  position: relative; }
+  .code-content h3 {
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 1.1px;
+    margin-bottom: 15px; }
+  .code-content i {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 18px; }
+  .code-content div {
+    margin-top: 15px;
+    border-top: 0.5px solid #e6e6e6; }
+    .code-content div p {
+      font-size: 12px;
+      color: #333333;
+      letter-spacing: 0.9px; }
+    .code-content div p:first-child {
+      margin: 10px 0; }
+    .code-content div p:last-child {
+      color: #cccccc; }
+
+/*# sourceMappingURL=payFinish.css.map */

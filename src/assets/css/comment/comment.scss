@@ -1,0 +1,35 @@
+$styleColor:rgb(128,64,144);
+$elementColor:#fff;
+$spanColor:rgb(3, 3, 3);
+$bottomColor:rgb(229, 229, 229);
+$htmlBackColor:rgb(240, 240, 240);
+
+.comment{
+	
+	.comment-inside-content{
+		background: $elementColor;
+		.comment-content-header{
+			box-sizing: border-box;
+			border-bottom: 0.5px solid $bottomColor; 
+			height: 52px;
+			width: 100%;
+			position: relative;
+			padding-left:15px;
+			padding-top:4px;
+			padding-bottom: 4px;
+			img{
+				width: 44px;
+				height: 44px;
+				border-radius: 3px;
+				margin-right:12px;
+			}
+			span{
+				font-size: 14px;
+				position: absolute;
+				top:50%;
+				transform: translateY(-50%);
+			}
+		}
+	}
+
+}

@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "iconfont";
+  src: url("../iconfont/iconfont.eot");
+  /* IE9*/
+  src: url("../iconfont/iconfont.eot") format("embedded-opentype"), url("../iconfont/iconfont.woff") format("woff"), url("../iconfont/iconfont.ttf") format("truetype"), url("../iconfont/iconfont.svg") format("svg");
+  /* iOS 4.1- */ }
+h3 {
+  margin: 0; }
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+.choose-way {
+  height: 40px;
+  background: #fafafa;
+  border-bottom: 0.5px solid #e5e5e5; }
+  .choose-way > span {
+    line-height: 40px;
+    float: left;
+    width: 33%;
+    text-align: center;
+    font-size: 13px;
+    color: #999999; }
+  .choose-way .choose-active {
+    color: #804090; }
+
+.shop-intro {
+  background: #fff;
+  padding-left: 15px;
+  box-sizing: border-box;
+  margin-bottom: 10px; }
+  .shop-intro .shop-content2 {
+    padding: 15px 0 15px 0; }
+    .shop-intro .shop-content2 > img {
+      width: 100px;
+      height: 100px;
+      float: left;
+      margin-right: 12px; }
+    .shop-intro .shop-content2 > ul {
+      float: left;
+      max-width: 65%; }
+      .shop-intro .shop-content2 > ul > li h3 {
+        font-size: 15px;
+        color: #333333;
+        font-weight: bold;
+        line-height: 24px; }
+      .shop-intro .shop-content2 > ul > li span {
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 1.2px;
+        color: #707070; }
+      .shop-intro .shop-content2 > ul > li .star {
+        color: #fbdd67;
+        font-size: 12px; }
+      .shop-intro .shop-content2 > ul > li .site {
+        color: #cccccc;
+        font-size: 12px; }
+      .shop-intro .shop-content2 > ul > li .new-shop {
+        display: inline-block;
+        font-size: 10px;
+        width: 28px;
+        height: 14px;
+        background: #eeb200;
+        color: #fff;
+        border-radius: 2px;
+        text-align: center;
+        margin-left: 12px; }
+      .shop-intro .shop-content2 > ul .list-site {
+        padding: 5px 0;
+        box-sizing: border-box;
+        margin-top: 5px; }
+        .shop-intro .shop-content2 > ul .list-site > span {
+          float: left;
+          width: 42%;
+          color: #666666;
+          text-align: right; }
+        .shop-intro .shop-content2 > ul .list-site > span:first-child {
+          text-align: left;
+          border-right: 0.5px solid #cccccc; }
+
+/*# sourceMappingURL=serveShop.css.map */

@@ -1,0 +1,316 @@
+strong {
+  font-size: 13px;
+  color: #333333;
+  font-weight: normal; }
+
+.userInfo-header .more-btn {
+  right: 0;
+  padding-right: 15px; }
+.userInfo-header .tooltip {
+  top: 65.5px;
+  opacity: 1;
+  right: 0; }
+  .userInfo-header .tooltip > .tooltip-arrow {
+    left: 75%; }
+.userInfo-header .hide {
+  display: none; }
+.userInfo-header .tooltip-inner {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100px; }
+  .userInfo-header .tooltip-inner li {
+    height: 44px;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.6); }
+    .userInfo-header .tooltip-inner li > span {
+      font-size: 16px;
+      line-height: 44px; }
+    .userInfo-header .tooltip-inner li .message-num {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: #804090; }
+      .userInfo-header .tooltip-inner li .message-num > span {
+        font-size: 9px; }
+  .userInfo-header .tooltip-inner li:last-child {
+    border: none; }
+.userInfo-header .share-btn {
+  right: 64px;
+  padding-right: 24px; }
+
+.shop-deil-list .big-pic {
+  height: 125px;
+  width: 100%;
+  background: url(../../images/icon2.png) no-repeat;
+  background-size: 100% 100%;
+  position: relative; }
+  .shop-deil-list .big-pic > div {
+    width: 52%;
+    height: 62%;
+    position: absolute;
+    top: 47.5px;
+    box-sizing: border-box; }
+    .shop-deil-list .big-pic > div span {
+      color: white; }
+    .shop-deil-list .big-pic > div > div {
+      float: left; }
+    .shop-deil-list .big-pic > div > div:nth-child(1) {
+      max-width: 40%;
+      padding: 10px 0 0 10px; }
+    .shop-deil-list .big-pic > div .right-deil {
+      min-width: 60%;
+      float: right; }
+    .shop-deil-list .big-pic > div .big-deil {
+      display: inline-block;
+      width: 52px;
+      height: 16px;
+      text-align: center;
+      border-radius: 50px;
+      border: 0.5px solid white;
+      font-size: 10px; }
+  .shop-deil-list .big-pic > i {
+    position: absolute;
+    top: 66.5px;
+    right: 15px;
+    display: inline-block;
+    width: 48px;
+    height: 24px;
+    font-size: 11px;
+    line-height: 24px;
+    text-align: center;
+    background-color: #804090;
+    border-radius: 50px;
+    color: white;
+    font-style: normal; }
+.shop-deil-list .shop-deil-btn {
+  height: 44px;
+  background: #fff;
+  border-bottom: 0.5px solid #e5e5e5; }
+  .shop-deil-list .shop-deil-btn > ul {
+    box-sizing: border-box;
+    height: 100%; }
+    .shop-deil-list .shop-deil-btn > ul > li {
+      box-sizing: border-box;
+      float: left;
+      width: 25%;
+      height: 100%;
+      padding: 0 14px; }
+      .shop-deil-list .shop-deil-btn > ul > li .active {
+        height: 100%;
+        border-bottom: 2px solid #804090;
+        color: #804090; }
+      .shop-deil-list .shop-deil-btn > ul > li > span {
+        font-size: 15px;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        line-height: 44px;
+        text-align: center; }
+
+.shop-serve {
+  width: 100%;
+  margin-bottom: 8px; }
+  .shop-serve .serve-active {
+    color: #804090; }
+  .shop-serve > ul {
+    height: 44px; }
+    .shop-serve > ul > li {
+      float: left;
+      height: 100%;
+      width: 33.33%;
+      background: #fff;
+      text-align: center; }
+      .shop-serve > ul > li > span {
+        line-height: 44px;
+        font-size: 14px; }
+
+.shop-serve-deil {
+  width: 100%; }
+  .shop-serve-deil > ul > li {
+    float: left;
+    width: 48%;
+    background: #fff;
+    padding-bottom: 8px;
+    margin-bottom: 8px; }
+    .shop-serve-deil > ul > li img {
+      width: 100%;
+      height: 181.5px; }
+    .shop-serve-deil > ul > li p {
+      padding-left: 12px;
+      margin-bottom: 16px;
+      margin-top: 8px;
+      font-size: 13px;
+      color: #333333; }
+    .shop-serve-deil > ul > li div {
+      box-sizing: border-box;
+      padding-left: 12px; }
+      .shop-serve-deil > ul > li div > span {
+        color: #f10865; }
+      .shop-serve-deil > ul > li div .new-price-unit {
+        font-size: 10px; }
+      .shop-serve-deil > ul > li div .new-price {
+        font-size: 18px; }
+      .shop-serve-deil > ul > li div .old-price {
+        font-size: 10px;
+        text-decoration: line-through;
+        color: #999999; }
+  .shop-serve-deil > ul li:nth-child(even) {
+    float: right; }
+
+.shop-content {
+  padding: 8px 0;
+  position: relative; }
+  .shop-content ul {
+    padding-left: 15px; }
+    .shop-content ul > li {
+      min-height: 44px;
+      box-sizing: border-box;
+      border-bottom: 0.5px solid #e5e5e5; }
+      .shop-content ul > li span {
+        font-size: 15px;
+        line-height: 44px; }
+      .shop-content ul > li span:nth-child(1) {
+        color: #666666; }
+      .shop-content ul > li span:nth-child(2) {
+        position: absolute;
+        right: 15px;
+        max-width: 50%;
+        text-align: right; }
+      .shop-content ul > li > img {
+        width: 105px;
+        height: 105px;
+        float: left;
+        margin: 12px 15px 12px 0; }
+  .shop-content .shop-content1,
+  .shop-content .shop-content2,
+  .shop-content .shop-content3 {
+    background-color: #fff; }
+  .shop-content .shop-content1 {
+    margin-bottom: 9.5px; }
+  .shop-content .shop-content2 {
+    margin-bottom: 8px; }
+    .shop-content .shop-content2 .shop-adress > div {
+      float: right;
+      max-width: 60%;
+      margin: 12px 0;
+      box-sizing: border-box;
+      padding-right: 15px;
+      text-align: right; }
+      .shop-content .shop-content2 .shop-adress > div > div {
+        display: inline; }
+
+.comment-content1 {
+  background-color: #fff; }
+  .comment-content1 > div {
+    padding: 16px 0 0 0;
+    margin-left: 15px;
+    box-sizing: border-box; }
+  .comment-content1 .all-comment {
+    border-top: 0.5px solid #e5e5e5;
+    padding: 16px 0; }
+  .comment-content1 .comment-btn {
+    width: 64px;
+    height: 24px;
+    border: 1px solid #804090;
+    border-radius: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    margin: 0 24px 16px 0; }
+    .comment-content1 .comment-btn > span {
+      font-size: 11px; }
+  .comment-content1 .btn-active {
+    background-color: #804090; }
+    .comment-content1 .btn-active > span {
+      color: #fff; }
+  .comment-content1 .comment-deil {
+    box-sizing: border-box; }
+    .comment-content1 .comment-deil > img {
+      float: left;
+      margin-right: 12px; }
+    .comment-content1 .comment-deil > div {
+      float: left; }
+      .comment-content1 .comment-deil > div > number {
+        font-size: 13px; }
+      .comment-content1 .comment-deil > div > span {
+        display: block;
+        width: 52px;
+        height: 16px;
+        background-color: #c986d5;
+        font-size: 10px;
+        color: #fff;
+        border-radius: 50px;
+        text-align: center; }
+    .comment-content1 .comment-deil > span {
+      float: right;
+      margin-right: 15px;
+      font-size: 12px;
+      color: #535353; }
+  .comment-content1 p {
+    padding: 16px 0;
+    margin: 0;
+    font-size: 12px;
+    color: #535353; }
+  .comment-content1 .comment-pic {
+    box-sizing: border-box; }
+    .comment-content1 .comment-pic > img {
+      width: 105px;
+      height: 105px;
+      margin-right: 15px;
+      float: left; }
+    .comment-content1 .comment-pic > img:nth-child(3) {
+      margin-right: 0; }
+  .comment-content1 .comment-com {
+    box-sizing: border-box;
+    margin: 16px 0 0 0;
+    height: 70px; }
+    .comment-content1 .comment-com .tooltip-inner {
+      max-width: 100%;
+      margin-right: 15px;
+      text-align: left;
+      padding: 13px 15px;
+      background-color: #f7f7f7;
+      color: #535353;
+      font-size: 12px; }
+    .comment-content1 .comment-com .tooltip-arrow {
+      border-bottom-color: #f7f7f7;
+      border-width: 0 10px 10px;
+      top: -5px;
+      left: 10%; }
+
+.deil-beauty {
+  margin-top: 8px; }
+  .deil-beauty > ul > li {
+    height: 76px;
+    width: 100%;
+    background: #fff;
+    padding: 8px 15px;
+    box-sizing: border-box;
+    margin-bottom: 8px; }
+    .deil-beauty > ul > li > img {
+      width: 60px;
+      height: 60px;
+      border-radius: 10px;
+      float: left; }
+    .deil-beauty > ul > li > div {
+      float: left; }
+      .deil-beauty > ul > li > div > p {
+        margin-bottom: 0px;
+        margin-left: 12px;
+        font-size: 14px; }
+      .deil-beauty > ul > li > div > p:nth-child(3) {
+        font-size: 12px; }
+    .deil-beauty > ul > li .deil-beauty-right {
+      float: right;
+      text-align: right; }
+      .deil-beauty > ul > li .deil-beauty-right > span {
+        display: block;
+        width: 56px;
+        height: 20px;
+        font-size: 11px;
+        border: 1px solid #804090;
+        border-radius: 50px;
+        text-align: center;
+        color: #804090;
+        margin-bottom: 10px; }
+
+/*# sourceMappingURL=shopDeil.css.map */

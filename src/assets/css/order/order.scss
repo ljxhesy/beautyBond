@@ -1,0 +1,154 @@
+$elementColor:#fff;
+$styleColor:rgb(128, 64, 144);
+$sizeColor:rgb(51, 51, 51);
+$spanLiBottomColor:rgb(229, 229, 229);
+
+.userInfo-header2 {
+    border-bottom: none;
+    >div {
+        width: 180px;
+        height: 30px;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        border: 1px solid $styleColor;
+        border-radius: 5px;
+        padding-left: 0;
+        >span {
+            float: left;
+            width: 50%;
+            height: 100%;
+            line-height: 28px;
+            font-size: 13px;
+            color: $styleColor;
+        }
+        .class-active {
+            background: $styleColor;
+            color: #fff;
+        }
+    }
+}
+
+.class-choose {
+    >ul {
+        height: 44px;
+        width: 100%;
+        background: rgb(250, 250, 250);
+        >li {
+            float: left;
+            width: 16%;
+            height: 100%;
+            text-align: center;
+            >span {
+                font-size: 12px;
+                color: rgb(153, 153, 153);
+                line-height: 40px;
+            }
+            .choose-active {
+                color: $styleColor;
+            }
+        }
+    }
+}
+
+.order-list {
+
+    .order-list-deil {
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        .list-header {
+            background: $elementColor;
+            height: 40px;
+            padding: 0 15px;
+            .list-header-left {
+                float: left;
+                height: 100%;
+                line-height: 40px;
+                span {
+                    font-size: 12px;
+                }
+            }
+            .list-header-right {
+                float: right;
+                height: 100%;
+                line-height: 40px;
+                >span {
+                    font-size: 12px;
+                    color: $styleColor;
+                }
+            }
+        }
+
+        .order-goods {
+            background: rgb(250, 250, 250);
+            .goods-list {
+                padding: 8px 15px;
+                position: relative;
+                background: rgb(250, 250, 250);
+                border-bottom: 0.5px solid rgb(240, 240, 240);
+                img {
+                    float: left;
+                    margin-right: 16px;
+                }
+                span {
+                    font-size: 13px;
+                }
+                div {
+                    float: left;
+                    width: 72%;
+                    >p {
+                        font-size: 13px;
+                        margin: 8px 0;
+                        >span {
+                            float: right;
+                        }
+                    }
+                    .goods-btn {
+                        display: block;
+                        width: 50px;
+                        height: 18px;
+                        font-size: 9px;
+                        border: 1px solid $styleColor;
+                        border-radius: 50px;
+                        color: $styleColor;
+                    }
+                    .goods-price {
+                        font-size: 12px;
+                        margin-top: 34.5px;
+                        margin-left: 5px;
+                        float: right;
+                    }
+                    .goods-price1 {
+                        font-size: 15px;
+                        margin-top: 33px;
+                    }
+                    .order-list-all{
+                    	position:absolute;
+                    	bottom:7.5px;
+                    	right:15px;
+                    }
+                }
+            }
+        }
+
+        .order-btn1 {
+            width: 100%;
+            height: 40px;
+            box-sizing: border-box;
+            padding: 10px 0;
+            background: $elementColor;
+            >span {
+                float: left;
+                width: 49%;
+                line-height: 20px;
+                text-align: center;
+                font-size: 12px;
+                color: rgb(102, 102, 102);
+                letter-spacing: 1.2px;
+            }
+            >span:last-child {
+                color: $styleColor;
+                border-left: 0.5px solid rgb(230, 230, 230);
+            }
+        }
+    }
+}

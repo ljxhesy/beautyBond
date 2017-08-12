@@ -1,0 +1,95 @@
+$elementColor:#fff;
+$styleColor:rgb(128, 64, 144);
+$sizeColor:rgb(51, 51, 51);
+$spanLiBottomColor:rgb(229, 229, 229);
+
+.pay{
+	/*position: relative;*/
+	.pay-header{
+		width:100%;
+		height: 40px;
+		background: rgb(185,166,211);
+		text-align: center;
+		span{
+			font-size: 12px;
+			color:#fff;
+			line-height: 40px;
+			
+		}
+	}
+
+	.pay-money{
+		width: 100%;
+		height: 60px;
+		background: $elementColor;
+		box-sizing: border-box;
+		padding: 0 15px;
+		span{
+			color:rgb(51,51,51);
+			font-size: 15px;
+			letter-spacing: 0.8px;
+			line-height: 60px;
+			font-family: PingFangSC-Light;
+		}
+		span:last-child{
+			float:right;
+		}
+
+	}
+
+	h3{
+			font-size: 12px;
+			color:rgb(153,153,153);
+			height: 30px;
+			padding-left: 15px;
+			line-height: 38px;
+			font-weight: normal;
+			letter-spacing: 0.6px;
+		}
+		.pay-footer{
+			width: 100%;
+			height: 49px;
+			background: $elementColor;
+			padding-left: 15px;
+			position: absolute;
+			bottom:0;
+			box-sizing: border-box;
+			span{
+				font-size: 13px;
+				color:rgb(51,51,51);
+				line-height: 49px;
+			}
+			span:nth-child(2){
+				font-size: 15px;
+				color:$styleColor;
+			}
+			button{
+				float: right;
+				width: 109px;
+				height: 100%;
+				background: $styleColor;
+				color:#fff;
+				border:none;
+				outline: none;
+				font-size: 15px;
+			}
+		}
+		ul{
+			position: absolute;
+			top:198px;
+			left:15px;
+			li{
+				height: 40px;
+				line-height: 40px;
+			}
+			li:nth-child(1){
+				margin-bottom:5px;
+			}
+			li:nth-child(2){
+				margin-bottom:9px;
+			}
+		}
+		.mint-radiolist-label {
+			padding-left:30px;
+		}
+}

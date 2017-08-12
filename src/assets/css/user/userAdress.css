@@ -1,0 +1,43 @@
+.user-adress {
+  padding: 12px 15px;
+  background-color: #fff;
+  box-sizing: border-box;
+  height: 102px; }
+  .user-adress span {
+    color: #030303; }
+  .user-adress .user-adress-info {
+    font-size: 16px;
+    margin-bottom: 21px;
+    box-sizing: border-box; }
+    .user-adress .user-adress-info > span:nth-child(2) {
+      float: right; }
+  .user-adress .user-adress-active {
+    display: inline-block;
+    width: 50px;
+    height: 18px;
+    font-size: 9px;
+    text-align: center;
+    line-height: 15px;
+    border: 1px solid #804090;
+    color: #804090;
+    border-radius: 50px;
+    margin-right: 10px; }
+  .user-adress .user-adress-deil {
+    font-size: 14px;
+    line-height: 16px; }
+
+.user-adress-button {
+  height: 39px;
+  background-color: #fff;
+  font-size: 13px;
+  box-sizing: border-box;
+  line-height: 39px;
+  padding: 0 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+  color: #535353;
+  margin-bottom: 8px; }
+  .user-adress-button > span:nth-child(1) {
+    margin-right: 24px; }
+
+/*# sourceMappingURL=userAdress.css.map */

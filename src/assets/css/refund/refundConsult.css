@@ -1,0 +1,21 @@
+.consult-deil {
+  background: #fff;
+  height: 94px;
+  box-sizing: border-box;
+  padding: 16px 15px;
+  position: relative;
+  margin-bottom: 8px; }
+  .consult-deil > img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); }
+  .consult-deil > p {
+    position: absolute;
+    left: 67px;
+    color: #333333; }
+  .consult-deil > p:last-child {
+    bottom: 16px;
+    color: #878787;
+    font-size: 12px; }
+
+/*# sourceMappingURL=refundConsult.css.map */
