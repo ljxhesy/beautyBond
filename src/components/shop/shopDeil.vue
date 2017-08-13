@@ -40,19 +40,16 @@
         <div class="shop-deil-list">
             <div class="big-pic">
                 <div class="clearfloat">
-                    <div>
-                        <img src="../../assets/images/group2.png">
+                    <div id="shopDeilIcon">
+                        <img :src="shopDeil.storeLogo">
                     </div>
                     <div class="right-deil">
-                        <span>美约俏佳人美容院</span>
+                        <span>{{shopDeil.storeName}}</span>
                         <div>
-                            <img src="../../assets/images/shape-gold.png">
-                            <img src="../../assets/images/shape-grey.png">
-                            <img src="../../assets/images/shape-grey.png">
-                            <img src="../../assets/images/shape-grey.png">
-                            <img src="../../assets/images/shape-grey.png">
+                            <img src="../../assets/images/shape-gold.png" v-for="item in brightStar">
+                            <img src="../../assets/images/shape-grey.png" v-for="key in grayStar">
                         </div>
-                        <span class="big-deil">认证商家</span>
+                        <span class="big-deil" v-if="shopDeil.storeAuth">认证商家</span>
                         <span class="big-deil">保证金</span>
                     </div>
                 </div>
@@ -87,43 +84,43 @@
         <div class="shop-serve-deil" style="display: none;">
             <ul class="clearfloat">
                 <li>
-                <router-link to="serveDeil">
-                    <img src="../../assets/images/deilList.png">
-                    <p>无针水光活化细胞展现透亮，清爽美白第一步</p>
-                    <div>
-                        <span class="new-price-unit">￥</span><span class="new-price">280.00</span>
-                        <span class="old-price">￥500</span>
-                    </div>
-                </router-link>
-                </li>
-                <li>
-                <router-link to="serveDeil">
-                    <img src="../../assets/images/deilList.png">
-                    <p>无针水光活化细胞展现透亮，清爽美白第一步</p>
-                    <div>
-                        <span class="new-price-unit">￥</span><span class="new-price">280.00</span>
-                        <span class="old-price">￥500</span>
-                    </div>
+                    <router-link to="serveDeil">
+                        <img src="../../assets/images/deilList.png">
+                        <p>无针水光活化细胞展现透亮，清爽美白第一步</p>
+                        <div>
+                            <span class="new-price-unit">￥</span><span class="new-price">280.00</span>
+                            <span class="old-price">￥500</span>
+                        </div>
                     </router-link>
                 </li>
                 <li>
-                <router-link to="serveDeil">
-                    <img src="../../assets/images/deilList.png">
-                    <p>无针水光活化细胞展现透亮，清爽美白第一步</p>
-                    <div>
-                        <span class="new-price-unit">￥</span><span class="new-price">280.00</span>
-                        <span class="old-price">￥500</span>
-                    </div>
+                    <router-link to="serveDeil">
+                        <img src="../../assets/images/deilList.png">
+                        <p>无针水光活化细胞展现透亮，清爽美白第一步</p>
+                        <div>
+                            <span class="new-price-unit">￥</span><span class="new-price">280.00</span>
+                            <span class="old-price">￥500</span>
+                        </div>
                     </router-link>
                 </li>
                 <li>
-                <router-link to="serveDeil">
-                    <img src="../../assets/images/deilList.png">
-                    <p>无针水光活化细胞展现透亮，清爽美白第一步</p>
-                    <div>
-                        <span class="new-price-unit">￥</span><span class="new-price">280.00</span>
-                        <span class="old-price">￥500</span>
-                    </div>
+                    <router-link to="serveDeil">
+                        <img src="../../assets/images/deilList.png">
+                        <p>无针水光活化细胞展现透亮，清爽美白第一步</p>
+                        <div>
+                            <span class="new-price-unit">￥</span><span class="new-price">280.00</span>
+                            <span class="old-price">￥500</span>
+                        </div>
+                    </router-link>
+                </li>
+                <li>
+                    <router-link to="serveDeil">
+                        <img src="../../assets/images/deilList.png">
+                        <p>无针水光活化细胞展现透亮，清爽美白第一步</p>
+                        <div>
+                            <span class="new-price-unit">￥</span><span class="new-price">280.00</span>
+                            <span class="old-price">￥500</span>
+                        </div>
                     </router-link>
                 </li>
             </ul>
@@ -139,17 +136,17 @@
                     </li>
                     <li class="clearfloat">
                         <span>服务满意度</span>
-                        <span>100%</span>
+                        <span>{{shopDeil.storeServicecredit+'%'}}</span>
                     </li>
                 </ul>
                 <ul>
                     <li class="clearfloat">
                         <span>环境满意度</span>
-                        <span>100%</span>
+                        <span>{{shopDeil.storeDesccredit+'%'}}</span>
                     </li>
                     <li class="clearfloat" style="border:none;">
                         <span>粉丝</span>
-                        <span>13000</span>
+                        <span>{{shopDeil.storeFocus}}</span>
                     </li>
                 </ul>
             </div>
@@ -158,13 +155,13 @@
                     <li class="clearfloat shop-adress">
                         <span>营业时间</span>
                         <div>
-                            周一至周六 09：00-23：00
+                            {{shopDeil.storeTime}}
                         </div>
                         <!-- <span></span> -->
                     </li>
                     <li class="clearfloat">
                         <span>服务电话</span>
-                        <span>027-88888888</span>
+                        <span>{{shopDeil.storeTel}}</span>
                     </li>
                 </ul>
                 <ul>
@@ -172,8 +169,8 @@
                         <span>门店地址</span>
                         <div>
                             <img src="../../assets/images/site-icon.png">
-                            <div>
-                                广东省深圳市罗湖区深南东路百货广场大厦东座1505
+                            <div id="shopDeil-site">
+                                    {{shopDeil.storeAddressArea+shopDeil.storeAddress}}   
                             </div>
                         </div>
                     </li>
@@ -271,39 +268,15 @@
         <!-- 美容师详情开始 -->
         <div class="deil-beauty" style="display: none;">
             <ul>
-                <li class="clearfloat">
+                <li class="clearfloat" v-for="key in beautyPerson">
                     <img src="../../assets/images/icon2.png">
                     <div>
-                        <p>艾小美</p>
+                        <p>{{key.name}}</p>
                         <p>星级评分</p>
-                        <p>满意度：90%</p>
+                        <p>满意度：{{key.beauticianDesccredit}}%</p>
                     </div>
                     <div class="deil-beauty-right">
-                        <span>五年经验</span>
-                        <img src="../../assets/images/group45.png">
-                    </div>
-                </li>
-                <li class="clearfloat">
-                    <img src="../../assets/images/icon2.png">
-                    <div>
-                        <p>艾小美</p>
-                        <p>星级评分</p>
-                        <p>满意度：90%</p>
-                    </div>
-                    <div class="deil-beauty-right">
-                        <span>五年经验</span>
-                        <img src="../../assets/images/group45.png">
-                    </div>
-                </li>
-                <li class="clearfloat">
-                    <img src="../../assets/images/icon2.png">
-                    <div>
-                        <p>艾小美</p>
-                        <p>星级评分</p>
-                        <p>满意度：90%</p>
-                    </div>
-                    <div class="deil-beauty-right">
-                        <span>五年经验</span>
+                        <span>{{key.years}}年经验</span>
                         <img src="../../assets/images/group45.png">
                     </div>
                 </li>
@@ -321,44 +294,44 @@
 <script type="text/javascript">
 import '../../assets/css/shop/shopDeil.css';
 import $ from 'jquery'
-
+import axios from "axios";
+import baseUrl from "../../../baseUrl.js"
 
 export default {
     name: 'shopDeil',
     data: function() {
         return {
-            data: []
+            data: [],
+            brightStar: [],
+            grayStar: [],
+            shopDeil: {},
+            beautyPerson:[]
         }
     },
-    created: function() {
-        // $(".change-btn").find("li").click(function() {
-        //     $(".active").removeClass("active");
-        //     $(this).find("span").addClass("active");
-        // });
+    created: function() {},
+    beforeMount: function() {
+        let shopStr = this.$route.path;
+        let shopIdNum = shopStr.substring(shopStr.indexOf(":") + 1);
+        axios.get(baseUrl["listUrl"] + "/shop/front/findById?id=" + shopIdNum) //店铺详情
+            .then(function(res) {
+                this.shopDeil = res.data.data;
+                console.log(this.shopDeil);
+                let starNum = this.shopDeil.gradeId + 0;
+                for (let i = 0; i < starNum; i++) { //金色等级
+                    this.brightStar.push(i);
+                }
+                for (let k = 0; k < 5 - starNum; k++) { //灰色等级
+                    this.grayStar.push(k);
+                }
+            }.bind(this));
 
-        // $(".shop-adress").find("span").eq(0).css("line-height", $(".shop-adress").height() + "px");
+        axios.get(baseUrl["listUrl"] + "/shopBeautician/front/selectByStoreId?storeId=" + shopIdNum)
+        .then(function(res){
+            this.beautyPerson = res.data.data;
+        }.bind(this));          //店铺美容师
+    },
+    mounted: function() {
 
-        // $(".comment-btn").click(function() {
-        //     $(".btn-active").removeClass("btn-active");
-        //     $(this).addClass("btn-active");
-        // })
-
-        // $(".serve-btn").children("li").click(function() {
-        //     $(".serve-active").removeClass("serve-active");
-        //     $(this).find("span").addClass("serve-active");
-        // })
-
-        // $(".more-btn").click(function() {
-        //     if ($(".show-link").hasClass("hide")) {
-        //         $(".show-link").removeClass("hide");
-        //     } else {
-        //         $(".show-link").addClass("hide");
-        //     }
-        // })
-
-        // $('[data-toggle="tooltip"]').tooltip()
-        // let commentHeight = $(".comment-com").children(".tooltip").outerHeight();
-        // $(".comment-com").css("height", $(".comment-com").children(".tooltip").outerHeight() + "px");
     },
     methods: {
         allServe: function(e) {

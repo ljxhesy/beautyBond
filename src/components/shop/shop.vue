@@ -15,7 +15,7 @@
         <!-- 头部结束 -->
         <!-- 店铺列表开始 -->
         <div class="shop-list" v-for="item in shopData">
-            <router-link to="shopDeil">
+            <router-link :to="'shopDeil/:'+item.id">
                 <div class="shop-name">
                     <img src="../../assets/images/shop-bj.png" v-if="!item.storeLogo">
                     <img :src="item.storeLogo" v-if="item.storeLogo">
@@ -111,6 +111,7 @@ export default {
     },
     beforeMount() {
         let self = this;
+        //查询商铺列表
         axios.get(baseUrl["listUrl"] + "/shop/front/findByPage?pageNo=1&pageSize=5")
             .then(function(res) {
                 for (let value of res.data["queryResult"]) {

@@ -171,30 +171,31 @@ h3 {
         font-size: 10px;
         color: #999999;
         text-decoration: line-through; }
-.index .index-footer {
+
+.index-footer {
   height: 49px;
   width: 100%;
   background: #fafafa;
   position: fixed;
   bottom: 0;
   z-index: 2111; }
-  .index .index-footer > a {
+  .index-footer > a {
     width: 25%;
     float: left;
     height: 100%;
     text-align: center;
     text-decoration: none;
     color: #666666; }
-    .index .index-footer > a > img {
+    .index-footer > a > img {
       margin: 8px 0 0px 0; }
-    .index .index-footer > a > p {
+    .index-footer > a > p {
       font-size: 10px; }
-  .index .index-footer > a:last-child > img {
+  .index-footer > a:last-child > img {
     margin-bottom: 0px;
     margin-top: 6px; }
-  .index .index-footer .turn-off-active {
+  .index-footer .turn-off-active {
     display: none; }
-  .index .index-footer .p-active {
+  .index-footer .p-active {
     color: #804090; }
 
 /*# sourceMappingURL=home.css.map */

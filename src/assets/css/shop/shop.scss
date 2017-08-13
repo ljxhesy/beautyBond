@@ -23,13 +23,38 @@ $spanLiBottomColor:rgb(229, 229, 229);
     -moz-osx-font-smoothing: grayscale;
 }
 
-.shop{
+.shop {
 
-.userInfo-header{
-    
-}
+    .userInfo-header {
+       >div {
+            >span {
+                line-height: 50px;
+                font-size: 15px;
+            }
+        }
+        >img {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 15px;
+        }
+        >label {
+            display: inline-block;
+            height: 100%;
+            width: 40px;
+            position: absolute;
+            right: 0px;
+            margin: 0;
+            >img {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                right: 15px;
+            }
+        }
+    }
 
-#shop-search {
+    #shop-search {
         width: 65%;
         border-radius: 15.5px;
         background: rgb(230, 230, 230);
@@ -41,209 +66,207 @@ $spanLiBottomColor:rgb(229, 229, 229);
         top: 50%;
         transform: translateY(-50%) translateX(-50%);
         left: 50%;
-        padding-left:35px;
-        font-size:12px;
-        letter-spacing: 1.2px;
-    }
-#searchImg{
-    right:300px;
-}
-
-.shop-list {
-    width: 90%;
-    margin: auto;
-    border-radius: 5px;
-    margin-top: 16px;
-    box-shadow: 0px 2px 0px rgb(217, 217, 217);
-}
-
-.shop-name {
-    height: 140px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    position: relative;
-    >img{
-        width:100%;
-        height:100%;
-        position: absolute;
-        z-index: 13;
-        border-top-left-radius:5px; 
-        border-top-right-radius:5px; 
-    }
-    p,
-    span,
-    i {
-        color: #fff;
-        z-index: 20;
-    }
-    p,
-    div {
-        position: absolute;
-        left: 15px;
-        z-index: 20;
-    }
-    p {
-        font-family: PingFangSC-Semibold;
-        top: 85px;
-        left: 15px;
-        font-size: 15px;
-        letter-spacing: 1.5px;
-    }
-    div {
-        bottom: 10px;
-    }
-    span {
-        font-size: 10px;
-        letter-spacing: 1px;
-    }
-    i {
-        font-size: 11px;
-    }
-}
-
-.shop-list-footer {
-    height: 40px;
-    background: $elementColor;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    >span {
-        float: left;
+        padding-left: 35px;
         font-size: 12px;
-        color: rgb(153, 153, 153);
-        line-height: 40px;
-        margin-left: 15px;
         letter-spacing: 1.2px;
     }
-    ul {
-        float: right;
-        margin-top: 10px;
-        margin-right: 10px;
-        li {
-            float: left;
-            margin-left: 16px;
-            i,
-            span {
-                font-size: 10px;
-                color: rgb(153, 153, 153);
-            }
-            i {
-                margin-right: 3px;
-            }
+    #searchImg {
+        right: 300px;
+    }
+
+    .shop-list {
+        width: 90%;
+        margin: auto;
+        border-radius: 5px;
+        margin-top: 16px;
+        box-shadow: 0px 2px 0px rgb(217, 217, 217);
+    }
+
+    .shop-name {
+        height: 140px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        position: relative;
+        >img {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: 13;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        p,
+        span,
+        i {
+            color: #fff;
+            z-index: 20;
+        }
+        p,
+        div {
+            position: absolute;
+            left: 15px;
+            z-index: 20;
+        }
+        p {
+            font-family: PingFangSC-Semibold;
+            top: 85px;
+            left: 15px;
+            font-size: 15px;
+            letter-spacing: 1.5px;
+        }
+        div {
+            bottom: 10px;
+        }
+        span {
+            font-size: 10px;
+            letter-spacing: 1px;
+        }
+        i {
+            font-size: 11px;
         }
     }
-}
 
-.content-swiper {
-    >ul {
+    .shop-list-footer {
+        height: 40px;
         background: $elementColor;
-        padding: 0 0 16px 15px;
-        >li {
-            width: 315px;
-            height: 155px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        >span {
             float: left;
-            background: url(../../images/shop-bg.png) no-repeat;
-            box-shadow: 0px 12px 13.5px 0px rgba(171, 171, 171, 0.5);
-            margin-right: 15px;
-            >img {
+            font-size: 12px;
+            color: rgb(153, 153, 153);
+            line-height: 40px;
+            margin-left: 15px;
+            letter-spacing: 1.2px;
+        }
+        ul {
+            float: right;
+            margin-top: 10px;
+            margin-right: 10px;
+            li {
                 float: left;
-                width: 200px;
-                height: 100%;
-            }
-            >div {
-                float: left;
-                width: 115px;
-                height: 100%;
-                >p {
-                    text-align: center;
-                }
-                >p:first-child {
-                    color: rgb(51, 51, 51);
-                    font-size: 14px;
-                    margin: 24px 0 14px 0;
-                }
-                >p:nth-child(2) {
-                    color: rgb(102, 102, 102);
-                    font-size: 12px;
-                    margin-bottom: 21px;
-                    img {
-                        margin-right: 3.5px;
-                    }
-                }
-                >img {
-                    display: block;
-                    margin: auto;
-                    margin-bottom: 18px;
-                }
-                >span {
-                    display: block;
-                    text-align: center;
+                margin-left: 16px;
+                i,
+                span {
                     font-size: 10px;
                     color: rgb(153, 153, 153);
                 }
+                i {
+                    margin-right: 3px;
+                }
+            }
+        }
+    }
+
+    .content-swiper {
+        >ul {
+            background: $elementColor;
+            padding: 0 0 16px 15px;
+            >li {
+                width: 315px;
+                height: 155px;
+                float: left;
+                background: url(../../images/shop-bg.png) no-repeat;
+                box-shadow: 0px 12px 13.5px 0px rgba(171, 171, 171, 0.5);
+                margin-right: 15px;
+                >img {
+                    float: left;
+                    width: 200px;
+                    height: 100%;
+                }
+                >div {
+                    float: left;
+                    width: 115px;
+                    height: 100%;
+                    >p {
+                        text-align: center;
+                    }
+                    >p:first-child {
+                        color: rgb(51, 51, 51);
+                        font-size: 14px;
+                        margin: 24px 0 14px 0;
+                    }
+                    >p:nth-child(2) {
+                        color: rgb(102, 102, 102);
+                        font-size: 12px;
+                        margin-bottom: 21px;
+                        img {
+                            margin-right: 3.5px;
+                        }
+                    }
+                    >img {
+                        display: block;
+                        margin: auto;
+                        margin-bottom: 18px;
+                    }
+                    >span {
+                        display: block;
+                        text-align: center;
+                        font-size: 10px;
+                        color: rgb(153, 153, 153);
+                    }
+                }
+            }
+        }
+    }
+
+    #site-Choose {
+
+        position: absolute;
+        top: 50px;
+        box-sizing: border-box;
+        width: 100%;
+        background: rgb(250, 250, 250);
+        z-index: 2117;
+
+        h3 {
+            font-size: 13px;
+            color: rgb(102, 102, 102);
+            font-weight: normal;
+            margin-bottom: 15px;
+            padding: 16px 0 0 10px;
+        }
+        div {
+            margin-left: 10px;
+            padding-bottom: 10px;
+            border-bottom: 0.5px solid rgb(230, 230, 230);
+        }
+        button {
+            width: 85px;
+            height: 40px;
+            background: rgb(240, 240, 240);
+            outline: none;
+            border-radius: 3px;
+            border: none;
+            margin-bottom: 0px;
+            color: rgb(102, 102, 102);
+        }
+        .site-btn-active {
+            background: $styleColor;
+            color: #fff;
+        }
+        #site-choose-footer {
+            position: absolute;
+            bottom: 0;
+            height: 49px;
+            width: 100%;
+            margin: 0;
+            button {
+                float: left;
+                width: 50%;
+                height: 49px;
+                padding: 0;
+                font-size: 15px;
+                color: rgb(102, 102, 102);
+                letter-spacing: 1.5px;
+            }
+            .site-confirm {
+                background: $styleColor;
+                color: #fff;
+            }
+            >div {
+                padding: 0;
             }
         }
     }
 }
-
-#site-Choose{
-    
-    position: absolute;
-    top:50px;
-    box-sizing: border-box;
-    width: 100%;
-    background: rgb(250,250,250);
-    z-index: 2117;
-
-    h3{
-        font-size: 13px;
-        color:rgb(102,102,102);
-        font-weight: normal;
-        margin-bottom: 15px;
-        padding:16px 0 0 10px;
-    }
-    div{
-        margin-left:10px;
-        padding-bottom: 10px;
-        border-bottom:0.5px solid rgb(230,230,230);
-    }
-    button{
-        width: 85px;
-        height: 40px;
-        background: rgb(240,240,240);
-        outline: none;
-        border-radius: 3px;
-        border: none;
-        margin-bottom: 0px;
-        color:rgb(102,102,102);
-    }
-    .site-btn-active{
-        background: $styleColor;
-        color:#fff;
-    }
-    #site-choose-footer{
-        position: absolute;
-        bottom: 0;
-        height: 49px;
-        width: 100%;
-        margin:0;
-        button{
-            float:left;
-            width: 50%;
-            height: 49px;
-            padding: 0;
-            font-size: 15px;
-            color:rgb(102,102,102);
-            letter-spacing: 1.5px;
-        }
-        .site-confirm{
-            background: $styleColor;
-            color:#fff;
-        }
-        >div{
-            padding:0;
-        }
-    }
-}
-
-}
-

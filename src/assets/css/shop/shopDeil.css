@@ -173,7 +173,7 @@ strong {
       .shop-content ul > li span:nth-child(2) {
         position: absolute;
         right: 15px;
-        max-width: 50%;
+        max-width: 70%;
         text-align: right; }
       .shop-content ul > li > img {
         width: 105px;
@@ -312,5 +312,14 @@ strong {
         text-align: center;
         color: #804090;
         margin-bottom: 10px; }
+
+#shopDeilIcon > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; }
+
+#shopDeil-site {
+  font-size: 15px;
+  letter-spacing: -0.5px; }
 
 /*# sourceMappingURL=shopDeil.css.map */

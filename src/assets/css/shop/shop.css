@@ -12,6 +12,26 @@
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale; }
 
+.shop .userInfo-header > div > span {
+  line-height: 50px;
+  font-size: 15px; }
+.shop .userInfo-header > img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px; }
+.shop .userInfo-header > label {
+  display: inline-block;
+  height: 100%;
+  width: 40px;
+  position: absolute;
+  right: 0px;
+  margin: 0; }
+  .shop .userInfo-header > label > img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px; }
 .shop #shop-search {
   width: 65%;
   border-radius: 15.5px;

@@ -129,7 +129,7 @@ export default {
                 console.log("titleName is not definded");
         }
         //首页分类数据接口
-        axios.get(baseUrl["weigeUrl"] + "/product/front/findByPage", {
+        axios.get(baseUrl["newEstUrl"] + "/product/front/findByPage", {
                 params: {
                     "cateId": this.shopId,
                     "pageNo": 1,
@@ -186,7 +186,7 @@ export default {
                 
             }
 
-            // axios.get(baseUrl["weigeUrl"] + "/product/front/findByPage", {
+            // axios.get(baseUrl["newEstUrl"] + "/product/front/findByPage", {
             //     params: {
             //         "cateId": this.shopId,
             //         "pageNo": 1,
